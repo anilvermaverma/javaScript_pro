@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.change{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.buttons{
+    margin-top: 20px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+}
+#red{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#green{
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#yellow{
+    background-color: yellow;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#black{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
